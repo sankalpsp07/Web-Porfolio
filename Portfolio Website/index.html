@@ -1,0 +1,372 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style/light_theme.css">
+    <link rel="stylesheet" href="style/orange_main.css">
+    <link rel="stylesheet" href="style/red.css">
+
+    <link rel="stylesheet" class="color-main" title="red" href="style/red_main.css" disabled>
+    <link rel="stylesheet" class="color-main" title="green" href="style/green_main.css" disabled>
+    <link rel="stylesheet" class="color-main" title="blue" href="style/blue_main.css" disabled>
+    <link rel="stylesheet" class="color-main" title="orange" href="style/orange_main.css" disabled>
+    <link rel="stylesheet" class="color-main" title="pink" href="style/pink_main.css" disabled>
+
+    <link rel="stylesheet" class="color-style" title="red" href="style/red.css" disabled>
+    <link rel="stylesheet" class="color-style" title="green" href="style/green.css" disabled>
+    <link rel="stylesheet" class="color-style" title="blue" href="style/blue.css" disabled>
+    <link rel="stylesheet" class="color-style" title="orange" href="style/orange.css" disabled>
+    <link rel="stylesheet" class="color-style" title="pink" href="style/pink.css" disabled>
+
+    <title>Portfolio</title>
+</head>
+
+<body onload="startLoading()">
+
+    <div class="page-loader">
+        <div class="container-load">
+            <div class="loader">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="loading-text">
+             Sankalp Sandeep Paranjpe...
+            </div>
+        </div>
+    </div>
+
+    <div class="container-main">
+        <header class="header">
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="img/38kb .jpg" alt="profile">
+                    <span class="icon-camera"></span>
+                </div>
+                <h2 class="profile-name"><a href="#about" id="my-name">Sankalp Sandeep Paranjpe</a></h2>
+            </div>
+
+            <div class="profile-lightbox">
+                <div class="profile-header">
+                    <p>Category: <span id="profile-category">my-profile</span></p>
+                    <span id="close-profile" class="icon-times"></span>
+                </div>
+                <div class="profile-details">
+                    <div class="my-image">
+                        <img id="my-pic" src="" alt="profile image">
+                    </div>
+                    <div class="profile-details-wrapper">
+                        <h2>My info</h2>
+                        <div class="profile-details-content">
+                            <p>Name: <span>Sankalp Sandeep Paranjpe</span></p>
+                            <p>Age: <span>18</span></p>
+                            <p>Degree: <span>Btech in CSE(Networks and security)</span></p>
+                            <p>Occupation: <span>CyberSecurity professional</span></p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lightbox-shadow"></div>
+
+            <div class="toggle-menu">
+                <span class="toggle-bar"></span>
+            </div>
+
+            <nav class="navbar">
+                <ul class="nav-items">
+                    <li><a href="#home" data-list="Home" class="menu-active">Home</a></li>
+                    <li><a href="#about" data-list="About" id="menu-about">About</a></li>
+                    <li><a href="#education" data-list="Education">Education</a></li>
+                   
+                   
+                    <li><a href="#blog" data-list="Blog">Blog</a></li>
+                    <li><a href="#contact" data-list="Contact" id="menu-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="slider">
+                <h1 class="slider-inner">Inner Text</h1>
+            </div>
+
+            <section class="home active" id="Home">
+                <div class="container-home">
+                    <div class="home-wrap">
+                        <p>Hello------- </p>
+                        <h2><span>I'm </span>Sankalp </h2>
+                        <div class="textition-animation">
+                            <p class="tag">And I'm a </p>
+                            <div id="textition-text">
+                                <p>CyberSecurity Professional</p>
+                                <p>Bug Hunter</p>
+                                <p>Pentester</p>
+                                <p>Ethical Hacker</p>
+                                <p>CTF Player</p>
+                            </div>
+                        </div>
+                        <div class="btn-wrap">
+                            <a href="#about" class="btn" id="about-btn" data-btn="about">About me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="About">
+                <h1 class="section-header"><span>A</span>bout me</h1>
+                <div class="container-about">
+                    <p class="about-title">I'm a professional <span class="typing-text"></span></p>
+                    <p class="about-description">Hello Everyone,
+                        I am Sankalp Sandeep Paranjpe, pursuing BTech in Computer Science Engineering with a specialization in Networks & Security. I am a Cybersecurity Enthusiast, a bug hunter & a Pentester.</p>
+
+                    <div class="my-info">
+                        <p class="details-title">My details</p>
+                        <div class="my-details">
+                            <div class="details-1">
+                                <p>Full Name : <span>Sankalp Sandeep Paranjpe</span></p>
+                                <p>Education : <span>BTech CSE (Specialisation in Networks and Security)</span> </p>
+                                <p>Skills: <span>Web Application Penetration testing <br>Bug Bounty Hunting<br>Frontend Development</span></p>
+                                <p>Tools: <span>Burpsuite Pro <br>Nikto<br>Dirbuster<br>Nessus etc</span></p>
+                            </div>
+                            <div class="details-2">
+                                <p>Education : <span>Btech CSE</span></p>
+                                <p>City : <span>Jabalpur,MP</span></p>
+                                
+                                <p>Languages: <span>English,Marathi,Hindi,Sanskrit</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-btn">
+                        <a href="#" class="btn" id="download-cv-btn">Download Resume</a>
+                       
+                    </div>
+                </div>
+            </section>
+
+            <section class="education" id="Education">
+                <h1 class="section-header"><span>E</span>ducation</h1>
+                <div class="container-education">
+                    <div class="education-title">
+                        <p class="edu-title active-title" data-edu="myedu">Education</p>
+                        <p class="exp-title" data-edu="myexp">Experience</p>
+                        <p class="skill-title" data-edu="skills">Skills</p>
+                    </div>
+                    <div class="container-myedu active-edu" data-edu="myedu">
+                        <div class="display-edu">
+                            <div class="education-wrapper">
+                                <div class="graduation-icon">
+                                    <span class="icon-graduation-cap"></span>
+                                </div>
+                                <div class="education-details">
+                                    <p class="year">2020- 2024</p>
+                                    <h2 class="degree-type">Engineering Degree</h2>
+                                    <p class="college">MIT ADT University</p>
+                                    <p class="degree-details">Pursuing BTech CSE specialization in Networks and Security </p>
+                                </div>
+                            </div>
+
+                            <div class="education-wrapper">
+                                <div class="graduation-icon">
+                                    <span class="icon-graduation-cap"></span>
+                                </div>
+                                <div class="education-details">
+                                    <p class="year">2019 - 2020</p>
+                                    <h2 class="degree-type">Class 12th</h2>
+                                    <p class="college">Joy Senior Secondary School</p>
+                                    <p class="degree-details">Completed Higher Secondary with 92% </p>
+                                </div>
+                            </div>
+
+                            <div class="education-wrapper">
+                                <div class="graduation-icon">
+                                    <span class="icon-graduation-cap"></span>
+                                </div>
+                                <div class="education-details">
+                                    <p class="year">2017 - 2018</p>
+                                    <h2 class="degree-type">Class 10th</h2>
+                                    <p class="college">Joy Senior Secondary School</p>
+                                    <p class="degree-details"></p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="container-myexp" data-edu="myexp">
+                        <div class="display-exp">
+                            <div class="experience-wrapper">
+                                <div class="exp-icon">
+                                    <span class="icon-mobile-alt"></span>
+                                </div>
+                                <p class="exp-year">Sept 2020- Present</p>
+                                <div class="experience-details">
+                                    <h2 class="experience-type">Security Researcher</h2>
+                                    <p class="experience-description">Working as a security researcher.I perform a peneration test and reporting Vulnerabilities to different companies.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience-wrapper">
+                                <div class="exp-icon">
+                                    <span class="icon-cogs"></span>
+                                </div>
+                                <p class="exp-year">Jan 2021-Mar 2021</p>
+                                <div class="experience-details">
+                                    <h2 class="experience-type">Network Security</h2>
+                                    <p class="experience-description">Worked at Virtually testing Foundation</p>
+                                </div>
+                            </div>
+
+                            <div class="experience-wrapper">
+                                <div class="exp-icon">
+                                    <span class="icon-code"></span>
+                                </div>
+                                <p class="exp-year">Dec 2020-Jan 2021</p>
+                                <div class="experience-details">
+                                    <h2 class="experience-type">Training and Internship Program</h2>
+                                    <p class="experience-description">Training and internship program at IIT Hyderabad </p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="container-skills" data-edu="skills">
+                        <div class="display-skills">
+                            <div class="skills-container">
+                                <div class="skills-wrapper">
+                                    <div class="chart-wrapper">
+                                        
+                                        <p>Web Application Pentesting</p>
+                                    </div>
+                                    <div class="chart-wrapper">
+                                        
+                                        <p>Vulnerability Assessment</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        
+                                        <p>Bug Bounty Hunting</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        
+                                        <p>C/C++ Programming</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                       
+                                        <p>HTML</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        
+                                        <p>CSS</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        
+                                        <p>Bootstrap</p>
+                                    </div>
+
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="blog" id="Blog">
+                <h1 class="section-header"><span>M</span>y blog</h1>
+                <div class="container-blog">
+                    <div class="blog-wrapper">
+                        <div class="blog-img">
+                            <img src="img/ill1.jpg" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <p class="blog-date">20 Mar, 2021</p>
+                            <a href="https://sankalp-paranjpe.medium.com/what-is-computer-science-must-read-for-first-year-students-70fe6837d6ec">
+                                <p class="blog-title">Computer Science</p>
+                            </a>
+                            <p class="blog-description">Must Read for first year Student. Written Specially for first year students.</p>
+                            <p class="tags">Tags: <span>CSE,First year</span></p>
+                        </div>
+                    </div>
+
+                 
+                    
+                </div>
+            </section>
+
+            <section class="contact" id="Contact">
+                <h2 class="text-white">Sankalp Sandeep Paranjpe </h2>
+                <h1 class="section-header"><span>C</span>ontact</h1>
+              
+                <div class="contact-container">
+                   
+                    <div class="contact-wrapper">
+                        
+                        <div class="social-icon">
+                            
+                            <div class="social-item">
+                                
+                                <a href="https://www.linkedin.com/in/sankalp-sandeep-paranjpe/">
+                                    <img src="img/linkedin.png" style="display: flex" alt="">
+                                </a>
+                            </div>
+                            <div class="social-item">
+                                <a href="https://github.com/sankalpsp07">
+                                    <img src="img/github.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="social-item">
+                                <a href="https://twitter.com/SankalpParanjpe">
+                                    <img src="img/twitter.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                                <div class="info-text">
+                                    <span class="icon-envelope"></span>
+                                    <p> sankalp.paranjpe@gmail.com</p>
+                                </div>
+
+                                
+
+                            </div>
+                        
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </section>
+
+            <footer id="footer">
+                <p>Made By <a href="https://www.youtube.com/channel/UCWKwxu333y_lmVjkWffxqTQ">SSP</a> | &copy; 2021 All rights reserved.</p>
+            </footer>
+
+           
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="libraries/jquery.easypiechart.js"></script>
+    <script src="libraries/jquery.ripples-min.js"></script>
+    <script src="libraries/textition.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
